@@ -1,0 +1,52 @@
+.bordered {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .title {
+    margin-top: 0;
+  }
+  
+  .task {
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .priority {
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+  }
+  
+  .due-date {
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .delete-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  

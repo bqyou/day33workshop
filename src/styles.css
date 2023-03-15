@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */  
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.title{
+    color: darkorange;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bordered{
+    border: 1px solid black;
+    width: 90vw;
+    margin-top:20px
+}
+
+.container{
+    width:100%
+}

@@ -1,0 +1,33 @@
+<!-- <div class="bordered">
+    <h2 class="title">
+        Task
+    </h2>
+    <div *ngFor="let x of tasks; let idx =index">
+        <div (click)="selected(idx)">
+                <span>{{x.description}}</span><br>
+                <div class="container">
+                    <span class="left">{{x.priority}}</span>
+                    <span class="right">{{x.dueDate}}</span>
+                </div>
+        </div>
+        <div>
+            <button type="button" (click)="delete(idx)">X</button>
+        </div>
+    </div>
+</div> -->
+
+<div class="bordered">
+    <h2 class="title">Task</h2>
+    <div *ngFor="let x of tasks; let idx = index" class="task" (click)="selected(idx)">
+      <div class="description">{{x.description}}</div>
+      <div class="container">
+        <div class="priority">Priority: {{x.priority}}</div>
+        <div class="due-date">Due Date: {{x.dueDate}}</div>
+        <div class="delete-button-container">
+          <button type="button" class="delete-button" (click)="delete(idx)">X</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
